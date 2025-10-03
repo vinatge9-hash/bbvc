@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta charset='UTF-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+  <title>Contact - Brew & Beans</title>
+  <meta name='description' content='Get in touch with Brew & Beans for inquiries or catering requests.'>
+  <script src='https://cdn.tailwindcss.com'></script>
+</head>
+<body class='bg-white text-gray-900'>
+  <nav class='bg-white shadow-md sticky top-0 z-50'>
+    <div class='max-w-7xl mx-auto px-4 py-4 flex items-center justify-between'>
+      <a href='index.html' class='text-2xl font-semibold text-gray-800'>Brew & Beans</a>
+      <div class='hidden md:flex space-x-6'>
+        <a href='index.html' class='text-gray-600 hover:text-gray-800'>Home</a>
+        <a href='about.html' class='text-gray-600 hover:text-gray-800'>About</a>
+        <a href='menu.html' class='text-gray-600 hover:text-gray-800'>Menu</a>
+        <a href='contact.html' class='text-gray-600 hover:text-gray-800'>Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <section class='min-h-screen bg-cover bg-center' style='background-image: url(https://images.unsplash.com/photo-1520975695334-1f8e9a3d2558?auto=format&fit=crop&w=1950&q=80);'>
+    <div class='bg-black/60 min-h-screen flex items-center justify-center'>
+      <div class='text-center text-white p-8'>
+        <h1 class='text-4xl md:text-6xl font-extrabold mb-4'>Contact Brew & Beans</h1>
+        <p class='text-lg md:text-2xl mb-6'>We'd love to hear from you. Reach out with questions, comments, or catering inquiries.</p>
+      </div>
+    </div>
+  </section>
+
+  <main class='py-12'>
+    <section class='max-w-7xl mx-auto px-4 grid md:grid-cols-2 gap-8'>
+      <div>
+        <form class='space-y-4'>
+          <div>
+            <label class='block text-sm font-medium mb-1'>Your Name</label>
+            <input type='text' name='name' required class='w-full border rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-yellow-500'>
+          </div>
+          <div>
+            <label class='block text-sm font-medium mb-1'>Email</label>
+            <input type='email' name='email' required class='w-full border rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-yellow-500'>
+          </div>
+          <div>
+            <label class='block text-sm font-medium mb-1'>Message</label>
+            <textarea name='message' rows='5' class='w-full border rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-yellow-500'></textarea>
+          </div>
+          <button type='submit' class='inline-block bg-yellow-400 text-black px-6 py-2 rounded-md font-semibold hover:bg-yellow-300 transition'>Send Message</button>
+        </form>
+      </div>
+      <aside>
+        <h3 class='text-xl font-semibold mb-3'>Get in touch</h3>
+        <p class='mb-2'>Address: 123 Bean Street, Coffee City</p>
+        <p class='mb-2'>Phone: (555) 012-3456</p>
+        <p class='mb-2'>Email: info@brewandbeans.example</p>
+        <p class='mt-4'>Hours: Mon–Sat 7:00 AM – 6:00 PM, Sun 8:00 AM – 4:00 PM</p>
+      </aside>
+    </section>
+  </main>
+
+  <footer class='bg-[#3C2415] text-white py-6'>
+    <div class='max-w-7xl mx-auto px-4 text-sm text-gray-200'>© 2025 Brew & Beans. All rights reserved.</div>
+  </footer>
+</body>
+</html>
