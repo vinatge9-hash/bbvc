@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta charset='UTF-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+  <title>Brew & Beans - Coffee Shop</title>
+  <meta name='description' content='Cozy coffee shop offering handcrafted espresso, pour-overs, and fresh pastries.'>
+  <script src='https://cdn.tailwindcss.com'></script>
+</head>
+<body class='bg-white text-gray-900'>
+  <!-- Navigation -->
+  <nav class='bg-white shadow-md sticky top-0 z-50'>
+    <div class='max-w-7xl mx-auto px-4 py-4 flex items-center justify-between'>
+      <a href='index.html' class='text-2xl font-semibold text-gray-800'>Brew & Beans</a>
+      <div class='hidden md:flex space-x-6'>
+        <a href='index.html' class='text-gray-600 hover:text-gray-800'>Home</a>
+        <a href='about.html' class='text-gray-600 hover:text-gray-800'>About</a>
+        <a href='menu.html' class='text-gray-600 hover:text-gray-800'>Menu</a>
+        <a href='contact.html' class='text-gray-600 hover:text-gray-800'>Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero with background image -->
+  <section class='min-h-screen bg-cover bg-center' style='background-image: url(https://images.unsplash.com/photo-1495475828316-29a1a6f3e4e9?auto=format&fit=crop&w=1950&q=80);'>
+    <div class='bg-black/60 min-h-screen flex items-center justify-center'>
+      <div class='text-center text-white p-8'>
+        <h1 class='text-4xl md:text-6xl font-extrabold mb-4'>Brew & Beans</h1>
+        <p class='text-lg md:text-2xl mb-6'>Artisan coffee, crafted with care in a warm, welcoming space.</p>
+        <a href='menu.html' class='inline-block bg-yellow-400 text-gray-900 px-6 py-3 rounded-full font-semibold hover:bg-yellow-300 transition'>Explore Menu</a>
+      </div>
+    </div>
+  </section>
+
+  <main class='py-12'>
+    <section class='max-w-7xl mx-auto px-4 mb-12'>
+      <div class='grid md:grid-cols-2 gap-8 items-center'>
+        <div>
+          <img src='https://images.unsplash.com/photo-1511920170033-3d9d5bdc9a4e?auto=format&fit=crop&w=900&q=60' alt='Barista pouring latte art' class='w-full rounded-lg shadow-md'>
+        </div>
+        <div>
+          <h2 class='text-2xl font-semibold mb-4'>Our Story</h2>
+          <p class='leading-relaxed text-gray-700'>Brew & Beans began as a small neighborhood roastery with a big dream: to build a space where people come together over exceptional coffee. We source beans from trusted farms, roast in small batches, and invite you to taste the craft in every cup.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class='bg-white'>
+      <div class='max-w-7xl mx-auto px-4 py-12'>
+        <h2 class='text-2xl font-semibold mb-6'>Featured Drinks</h2>
+        <div class='grid md:grid-cols-3 gap-8'>
+          <article class='border rounded-lg overflow-hidden shadow hover:shadow-lg transition'>
+            <img src='https://images.unsplash.com/photo-1495472145352-22a3e21b7e2e?auto=format&fit=crop&w=600&q=60' alt='Espresso cup' class='w-full h-48 object-cover'>
+            <div class='p-4'>
+              <h3 class='font-semibold text-lg'>Espresso</h3>
+              <p class='text-sm text-gray-600'>Rich, concentrated coffee with layered caramel notes.</p>
+            </div>
+          </article>
+          <article class='border rounded-lg overflow-hidden shadow hover:shadow-lg transition'>
+            <img src='https://images.unsplash.com/photo-1526312426976-3fe8d8e50e3c?auto=format&fit=crop&w=600&q=60' alt='Latte art' class='w-full h-48 object-cover'>
+            <div class='p-4'>
+              <h3 class='font-semibold text-lg'>Latte</h3>
+              <p class='text-sm text-gray-600'>Silky steamed milk with a smooth espresso base.</p>
+            </div>
+          </article>
+          <article class='border rounded-lg overflow-hidden shadow hover:shadow-lg transition'>
+            <img src='https://images.unsplash.com/photo-1526312425672-4c519db0d16b?auto=format&fit=crop&w=600&q=60' alt='Cold brew iced coffee' class='w-full h-48 object-cover'>
+            <div class='p-4'>
+              <h3 class='font-semibold text-lg'>Cold Brew</h3>
+              <p class='text-sm text-gray-600'>Smooth, refreshing brew served over ice.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class='max-w-7xl mx-auto px-4 py-12'>
+      <div class='grid md:grid-cols-2 gap-8 items-center'>
+        <div>
+          <h2 class='text-2xl font-semibold mb-4'>Visit Us</h2>
+          <p class='text-gray-700 mb-6'>We’re open daily with a cozy corner for conversation, study, or catching up with friends. Free Wi‑Fi, plenty of outlets, and a warm, inviting atmosphere.</p>
+          <p class='text-gray-700'>Address: 123 Bean Street, Coffee City</p>
+          <p class='text-gray-700'>Phone: (555) 012-3456</p>
+        </div>
+        <div>
+          <img src='https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=900&q=60' alt='Cozy coffee shop interior' class='w-full rounded-lg shadow-md'>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class='bg-[#3C2415] text-white py-8'>
+    <div class='max-w-7xl mx-auto px-4 grid md:grid-cols-4 gap-8'>
+      <div>
+        <h4 class='font-semibold text-lg mb-2'>Brew & Beans</h4>
+        <p class='text-sm text-gray-200'>Neighborhood coffee shop with craft espresso and fresh pastries.</p>
+      </div>
+      <div>
+        <h5 class='font-semibold mb-2'>Hours</h5>
+        <p class='text-sm text-gray-200'>Mon–Sat: 7:00 AM – 6:00 PM</p>
+        <p class='text-sm text-gray-200'>Sun: 8:00 AM – 4:00 PM</p>
+      </div>
+      <div>
+        <h5 class='font-semibold mb-2'>Location</h5>
+        <p class='text-sm text-gray-200'>123 Bean Street, Coffee City</p>
+      </div>
+      <div>
+        <h5 class='font-semibold mb-2'>Menu</h5>
+        <a href='menu.html' class='text-sm text-gray-200 hover:text-white'>View full menu</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
