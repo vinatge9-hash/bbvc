@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta charset='UTF-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+  <title>Menu - Brew & Beans</title>
+  <meta name='description' content='Our coffee and pastry menu with prices.'>
+  <script src='https://cdn.tailwindcss.com'></script>
+</head>
+<body class='bg-white text-gray-900'>
+  <nav class='bg-white shadow-md sticky top-0 z-50'>
+    <div class='max-w-7xl mx-auto px-4 py-4 flex items-center justify-between'>
+      <a href='index.html' class='text-2xl font-semibold text-gray-800'>Brew & Beans</a>
+      <div class='hidden md:flex space-x-6'>
+        <a href='index.html' class='text-gray-600 hover:text-gray-800'>Home</a>
+        <a href='about.html' class='text-gray-600 hover:text-gray-800'>About</a>
+        <a href='menu.html' class='text-gray-600 hover:text-gray-800'>Menu</a>
+        <a href='contact.html' class='text-gray-600 hover:text-gray-800'>Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <section class='min-h-screen bg-cover bg-center' style='background-image: url(https://images.unsplash.com/photo-1511920170033-3d9d5bdc9a4e?auto=format&fit=crop&w=1950&q=80);'>
+    <div class='bg-black/50 min-h-screen flex items-center justify-center'>
+      <div class='text-center text-white p-8'>
+        <h1 class='text-4xl md:text-6xl font-extrabold mb-4'>Our Menu</h1>
+        <p class='text-lg md:text-2xl mb-6'>Crafted coffee, pastries, and light bites.</p>
+      </div>
+    </div>
+  </section>
+
+  <main class='py-12'>
+    <section class='max-w-7xl mx-auto px-4'>
+      <h2 class='text-2xl font-semibold mb-4'>Coffee</h2>
+      <div class='grid md:grid-cols-2 lg:grid-cols-3 gap-6'>
+        <div class='border rounded-lg overflow-hidden shadow hover:shadow-lg transition'>
+          <img src='https://images.unsplash.com/photo-1526312426976-3fe8d8e50e3c?auto=format&fit=crop&w=600&q=60' alt='Espresso' class='w-full h-40 object-cover'>
+          <div class='p-4'>
+            <h3 class='font-semibold'>Espresso</h3>
+            <p class='text-sm text-gray-600'>Ristretto shot with bold, caramel notes.</p>
+            <p class='mt-2 font-semibold'>$3.50</p>
+          </div>
+        </div>
+        <div class='border rounded-lg overflow-hidden shadow hover:shadow-lg transition'>
+          <img src='https://images.unsplash.com/photo-1526312080680-7c22d1d0f3b0?auto=format&fit=crop&w=600&q=60' alt='Latte' class='w-full h-40 object-cover'>
+          <div class='p-4'>
+            <h3 class='font-semibold'>Latte</h3>
+            <p class='text-sm text-gray-600'>Silky milk with a smooth espresso base.</p>
+            <p class='mt-2 font-semibold'>$4.50</p>
+          </div>
+        </div>
+        <div class='border rounded-lg overflow-hidden shadow hover:shadow-lg transition'>
+          <img src='https://images.unsplash.com/photo-1526312426970-3b12f5f9b4f0?auto=format&fit=crop&w=600&q=60' alt='Cappuccino' class='w-full h-40 object-cover'>
+          <div class='p-4'>
+            <h3 class='font-semibold'>Cappuccino</h3>
+            <p class='text-sm text-gray-600'>Balanced with frothy milk foam.</p>
+            <p class='mt-2 font-semibold'>$4.25</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class='max-w-7xl mx-auto px-4 mt-8'>
+      <h2 class='text-2xl font-semibold mb-4'>Pastries</h2>
+      <div class='grid md:grid-cols-2 lg:grid-cols-3 gap-6'>
+        <div class='border rounded-lg overflow-hidden shadow hover:shadow-lg transition'>
+          <img src='https://images.unsplash.com/photo-1504754524776-8f4f37790ca0?auto=format&fit=crop&w=600&q=60' alt='Croissant' class='w-full h-40 object-cover'>
+          <div class='p-4'>
+            <h3 class='font-semibold'>Croissant</h3>
+            <p class='text-sm text-gray-600'>Flaky, buttery and warm from the oven.</p>
+            <p class='mt-2 font-semibold'>$3.25</p>
+          </div>
+        </div>
+        <div class='border rounded-lg overflow-hidden shadow hover:shadow-lg transition'>
+          <img src='https://images.unsplash.com/photo-1499028344343-60c3a8367d9b?auto=format&fit=crop&w=600&q=60' alt='Blueberry muffin' class='w-full h-40 object-cover'>
+          <div class='p-4'>
+            <h3 class='font-semibold'>Blueberry Muffin</h3>
+            <p class='text-sm text-gray-600'>Moist crumb with bursts of blueberry.</p>
+            <p class='mt-2 font-semibold'>$3.75</p>
+          </div>
+        </div>
+        <div class='border rounded-lg overflow-hidden shadow hover:shadow-lg transition'>
+          <img src='https://images.unsplash.com/photo-1589186115492-74b8a9b06b8a?auto=format&fit=crop&w=600&q=60' alt='Flaky pastry' class='w-full h-40 object-cover'>
+          <div class='p-4'>
+            <h3 class='font-semibold'>Almond Danish</h3>
+            <p class='text-sm text-gray-600'>Buttery pastry with almond filling.</p>
+            <p class='mt-2 font-semibold'>$3.50</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class='bg-[#3C2415] text-white py-8'>
+    <div class='max-w-7xl mx-auto px-4 grid md:grid-cols-3 gap-8'>
+      <div>
+        <h4 class='font-semibold'>Brew & Beans</h4>
+        <p class='text-sm text-gray-200'>Craft coffee, pastries, and community space.</p>
+      </div>
+      <div>
+        <h5 class='font-semibold'>Hours</h5>
+        <p class='text-sm text-gray-200'>Mon–Sat: 7:00 AM – 6:00 PM</p>
+        <p class='text-sm text-gray-200'>Sun: 8:00 AM – 4:00 PM</p>
+      </div>
+      <div>
+        <h5 class='font-semibold'>Menu</h5>
+        <a href='index.html' class='text-sm text-gray-200 hover:text-white'>Back to Home</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
